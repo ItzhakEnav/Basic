@@ -2,7 +2,7 @@ package classes.class01;
 
 import java.util.Scanner;
 
-public class operators {
+public class Operators {
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class operators {
         System.out.print("Enter Your Number: ");
         int num = in.nextInt();  // Read user input
 
-        boolean scaner = (num % 2 == 0) ? true : false ;
+        boolean scaner = (num % 2 == 0) ? true : false ; // Check if the num is double
         System.out.println(scaner);
     }
 
