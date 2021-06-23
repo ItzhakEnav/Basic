@@ -10,7 +10,8 @@ public class Staements {
     public static void main(String[] args) {
         // Exercise01();
         // Exercise02();
-        Exercise03();
+        // Exercise03();
+        Exercise04();
     }
 
     public static void Exercise01() {
@@ -81,6 +82,28 @@ public class Staements {
     }
 
     public static void Exercise04() {
+        System.out.println("Exercise 04\nEnter your job: ");
+        String jobName = in.nextLine();  // Read user job input
+
+        switch (jobName) {
+            case "Teacher":
+                System.out.println("Teacher = 5,000");
+                break;
+            case "QA":
+                System.out.println("QA = 1,5000");
+                break;
+            case "Bank Teller":
+                System.out.println("Bank Teller = 10,000");
+                break;
+            case "Average Salary":
+                System.out.println("Salary = 9,100");
+                break;
+            default:
+                System.out.println("Error");
+                ;
+
+        }
+
 
     }
 
