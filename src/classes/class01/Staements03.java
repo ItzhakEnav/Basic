@@ -106,8 +106,8 @@ public class Staements03 {
     }
 
     public static void Exercise05() {
-        String arry[][] = {{"Moshe", "Joseph"}, {"22", "Jerusalem", "45", "London"}};
-        for (String[] str : arry) {
+        String array[][] = {{"Moshe", "Joseph"}, {"22", "Jerusalem", "45", "London"}};
+        for (String[] str : array) {
             System.out.println(Arrays.deepToString(str));
         }
     }
