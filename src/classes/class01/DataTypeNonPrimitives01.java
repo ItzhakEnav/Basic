@@ -2,7 +2,7 @@ package classes.class01;
 
 import java.util.Scanner;
 
-public class DataTypeNonPrimitives {
+public class DataTypeNonPrimitives01 {
     static Scanner in = new Scanner(System.in);  // Create a Scanner object
 
     public static void main(String[] args) {
