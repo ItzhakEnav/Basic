@@ -2,16 +2,20 @@ package classes.class01;
 
 import com.sun.org.apache.bcel.internal.generic.SWITCH;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
-public class Staements {
+public class Staements03 {
     static Scanner in = new Scanner(System.in);  // Create a Scanner object
 
     public static void main(String[] args) {
         // Exercise01();
         // Exercise02();
         // Exercise03();
-        Exercise04();
+        // Exercise04();
+        // Exercise05();
+        // Exercise06(new int[]{1, 23, 43, 56, 4});
+        // Exercise07(new String[]{"o", "l", "l", "e", "H"});
     }
 
     public static void Exercise01() {
@@ -53,7 +57,6 @@ public class Staements {
         }
         System.out.println(sum);
 
-
         System.out.println("\nPart C:");
         int biggest = 0;
         for (int number : numbers) {
@@ -61,7 +64,6 @@ public class Staements {
                 biggest = number;
         }
         System.out.println(biggest);
-
     }
 
     public static void Exercise03() {
@@ -78,7 +80,6 @@ public class Staements {
         } else {
             System.out.println("You are dead :( ");
         }
-
     }
 
     public static void Exercise04() {
@@ -100,11 +101,40 @@ public class Staements {
                 break;
             default:
                 System.out.println("Error");
-                ;
 
         }
-
-
     }
 
+    public static void Exercise05() {
+        String arry[][] = {{"Moshe", "Joseph"}, {"22", "Jerusalem", "45", "London"}};
+        for (String[] str : arry) {
+            System.out.println(Arrays.deepToString(str));
+        }
+    }
+
+    public static void Exercise06(int[] numbers) {
+        for (int number : numbers) {
+            if (number % 4 == 0) {
+                System.out.println(number);
+            }
+        }
+    }
+
+    public static void Exercise07(String[] word) {
+//        for (int i = word.length-1; i >=0 ; i--){
+//            System.out.print(word[i]);
+//        }
+//        for (int i = 1; i <= word.length; i++) {
+//            System.out.print(word[word.length - i]);
+//        }
+//        for (int i = 0; i < word.length; i++) {
+//            System.out.print(word[word.length - 1 - i]);
+//        }
+        int i = 0;
+        do {
+            System.out.print(word[word.length-i-1]);
+            i ++;
+        }
+        while (i != word.length);
+    }
 }
