@@ -4,7 +4,7 @@ public class MainProgram {
     public static void main(String[] args) {
         MobileDevice MD = new MobileDevice();
         MD.hasFlash = true;
-        MD.model = "אייפון";
+        MD.model = "Iphone";
         MD.os = 'i';
         MD.OSVersion = 8.12;
         MD.price = 4330;
