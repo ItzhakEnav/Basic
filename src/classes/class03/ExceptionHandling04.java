@@ -1,4 +1,4 @@
-package classes.class01;
+package classes.class03;
 
 public class ExceptionHandling04 {
     public static void main(String[] args) {
