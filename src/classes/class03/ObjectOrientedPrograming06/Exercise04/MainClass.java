@@ -1,4 +1,4 @@
-package classes.class03.ObjectOrientedPrograming06;
+package classes.class03.ObjectOrientedPrograming06.Exercise04;
 
 public class MainClass {
     public static void main(String[] args) {
