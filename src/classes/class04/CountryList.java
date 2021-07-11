@@ -23,7 +23,7 @@ public class CountryList {
         countries.addAll(Trip.MyNextTrip());
         System.out.println(countries);
         // Check if the Ex.. was Working with Set
-        Set<String> s = new HashSet<String>();
+        Set<String> s = new HashSet<>();
         s.add("e");
         s.add("d");
         s.add("v");
