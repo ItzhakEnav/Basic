@@ -3,7 +3,7 @@ package classes.class03.ObjectOrientedPrograming06.Exercise05;
 public class Israel implements Traditional  {
     @Override
     public String myTraditionalFood() {
-        return "ישראך אוכל לאומי: פאלפאל";
+        return "ישראל אוכל לאומי: פאלפאל";
     }
 
     @Override
