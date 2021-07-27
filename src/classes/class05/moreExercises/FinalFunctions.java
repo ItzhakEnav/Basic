@@ -1,5 +1,6 @@
 package classes.class05.moreExercises;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
@@ -30,7 +31,7 @@ public class FinalFunctions {
     }
 
     public static void Ex03(String[] sung) {
-        LinkedList list = new LinkedList();
+        LinkedList<Integer> list = new LinkedList<>();
         while (list.size() < sung.length) {
             int contain = rand.nextInt(sung.length);
             if (!list.contains(contain)) {
@@ -55,8 +56,23 @@ public class FinalFunctions {
 
     }
 
-    public static void Ex05() {
+    public static void Ex05PartOne(String[] song) {
+        String bigWord = "";
+        for (String word : song) {
+            if (bigWord.length() < word.length()) {
+                bigWord = word;
+            }
+        }
+        System.out.println(bigWord);
+    }
 
-
+    public static String[] Ex05PartTwo(String[] song, String search) {
+        LinkedList<String> result = new LinkedList<>();
+        for (String word : song) {
+            if (word.contains(search)) {
+                result.add(word);
+            }
+        }
+        return result.toArray(new String[0]);
     }
 }
