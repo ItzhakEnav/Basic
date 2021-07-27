@@ -39,4 +39,24 @@ public class FinalFunctions {
             }
         }
     }
+
+    public static void Ex04(int[] numbers) {
+        for (int number : numbers) {
+            boolean isPrime = true;
+            for (int i = 2; i < number; i++)
+                if (number % i == 0) {
+                    isPrime = false;
+                    break;
+                }
+            if (isPrime) {
+                System.out.println(number);
+            }
+        }
+
+    }
+
+    public static void Ex05() {
+
+
+    }
 }
