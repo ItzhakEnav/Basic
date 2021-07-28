@@ -12,5 +12,6 @@ public class FinalMain {
         for (String word : search) {
             System.out.println(word);
         }
+        System.out.println(MoreExercises.Ex06(12345));
     }
 }
