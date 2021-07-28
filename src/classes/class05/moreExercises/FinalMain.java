@@ -13,5 +13,6 @@ public class FinalMain {
             System.out.println(word);
         }
         System.out.println(MoreExercises.Ex06(12345));
+        System.out.println(MoreExercises.Ex07(123.45));
     }
 }
